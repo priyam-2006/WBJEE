@@ -1,0 +1,106 @@
+.tr1{
+    border-style: 2px solid black;
+    padding: 2px; 
+}
+.td1{
+    padding: 5px;
+    size: 100%;
+    display: inline;
+    background-color: rgba(128, 128, 128, 0);
+}
+.div1{
+    background-color: #04154e;
+    color: white;
+    font-family: 'Lucida Sans';
+    
+}
+.div2{
+    width: 700px;
+  margin: 10px -800px;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: right;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    100% {
+      margin-left: -1200px;
+    }
+    0% {
+      margin-left: 1600px;
+    }
+  }
+  .div2:hover{
+    animation-play-state: paused;
+    cursor: crosshair;
+  }
+.dropbtn {
+    background-color: #ffffff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Lucida Sans';
+    border: none;
+  }
+  .dropbtn:hover{
+    background-color: #f3ae53;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ca9043;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #032a64; color: #ffffff;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #e7a222;}
+.but{
+  border: 0px;
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+  font-size: 110%;
+  padding-bottom: 2px;
+}
+.b{
+  border: 0px;
+  background-color: #ca9043;
+  color: rgb(0, 0, 0);
+  font-size: 90%;
+  padding-bottom: 2px;
+}
+.b:hover{
+  color: white;
+  padding-left: 5px;
+  padding-right:5px ;
+  background-size: 500%;
+}
+.b:click{
+  border: 1px;
+}
+.pic{
+  margin-left: auto; margin-right: auto; max-width: fit-content;
+}
+.foot{
+  background-color: #1a1919;
+  color: #ffffff;
+  margin-left: auto; margin-right: auto; max-width: fit-content;
+  font-family: Arial;
+}
+.fp{
+  display: inline;
+  margin-left: 500px; margin-right: auto; max-width: fit-content;
+
+}
